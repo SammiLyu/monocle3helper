@@ -1,11 +1,11 @@
 Package: monocle3helper
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Helper Functions for Monocle3 Analysis in the Franks Lab
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Franks", "Lab",
+      email = "frankslab@seattlechildrens.org",
       role = c("aut", "cre")
     )
   )
@@ -24,5 +24,6 @@ Imports:
     tools,
     utils
 Suggests: 
+    biomaRt,
     rsbml
 RoxygenNote: 7.3.3
