@@ -172,6 +172,8 @@ majority_label_by_cluster <- function(
     pData(cds)$majority_label <- cluster_to_label[
       as.character(pData(cds)[[cluster_col]])
     ]
+    # add a return to make sure that if annotate_cds is TRUE, what is returned is cds, not majority_df
+    return(cds)
   }
 
   return(majority_df)
